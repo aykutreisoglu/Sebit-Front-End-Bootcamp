@@ -1,0 +1,28 @@
+.main-form {
+  background-color: thistle;
+  padding: 20px;
+  margin: 10px 350px;
+  border-radius: 10px;
+}
+
+.formElement {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+.formElement:focus {
+  background-color: lightblue;
+}
+
+.formSubmit {
+  width: 100%;
+  padding: 10px;
+  background-color: violet;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  margin-top: 5px;
+}
