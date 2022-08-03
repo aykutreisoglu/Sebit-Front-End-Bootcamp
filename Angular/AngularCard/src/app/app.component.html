@@ -1,0 +1,31 @@
+<!-- <div>
+  <p>Ilk Angular Projem</p>
+  {{ aykut }}
+</div>
+// if else gibi davranıyor ngIf
+<div *ngIf="isUpdate">True ise</div>
+<div *ngIf="!isUpdate">False ise</div> -->
+
+<!-- Foreach gibi davranıyor. -->
+<!-- <div *ngFor="let post of posts">
+  {{ post.title }}
+</div> -->
+
+<div class="container">
+  <div class="row my-5">
+    <div class="col-md-4" *ngFor="let post of posts">
+      <!-- <app-card
+        [titleChild]="post.title"
+        [imageUrlChild]="post.imageUrl"
+        [usernameChild]="post.username"
+        [contentChild]="post.content"
+      ></app-card> -->
+
+      <app-card [post]="post"></app-card>
+    </div>
+  </div>
+</div>
+
+<!-- selector ile ulaşılıyor. card component ts içinde ki selector name -->
+
+<div *ngFor="let post of posts"></div>

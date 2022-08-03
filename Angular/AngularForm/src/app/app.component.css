@@ -1,0 +1,8 @@
+.navbar-login {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-login a {
+  text-decoration: none;
+  color: white;
+}
