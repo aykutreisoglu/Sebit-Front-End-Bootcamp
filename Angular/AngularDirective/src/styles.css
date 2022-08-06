@@ -1,0 +1,10 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.navbarDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.divOrtala {
+  text-align: center;
+}
